@@ -1,0 +1,16 @@
+<div class=”container”>
+    <div class=”template”>
+    <h1>Employee Dashboard</h1>
+    <div *ngFor="let registration of registrations" style="float:left">
+        <div class="card" style="width: 18rem;">
+            <img src={{registration.Image}} style="width: 280px;height: 300px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{registration.Name}}</h5>
+              <p class="card-text">{{registration.department}}</p>
+              <p class="card-text2">{{registration.Id}}</p>
+              
+            </div>
+          </div>
+        </div>  
+    </div>
+    </div>
